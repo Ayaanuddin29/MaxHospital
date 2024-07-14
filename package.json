@@ -1,6 +1,8 @@
 {
   "dependencies": {
     "express": "^4.19.2",
-    "mongoose": "^8.5.1"
+    "flowbite-react": "^0.10.1",
+    "mongoose": "^8.5.1",
+    "react-router-dom": "^6.20.0"
   }
 }
