@@ -3,6 +3,19 @@
     "express": "^4.19.2",
     "flowbite-react": "^0.10.1",
     "mongoose": "^8.5.1",
+    "nodemon": "^3.1.4",
     "react-router-dom": "^6.20.0"
-  }
+  },
+  "name": "hospital",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev":"nodemon api/index.js",
+    "start":"node api/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module"
 }

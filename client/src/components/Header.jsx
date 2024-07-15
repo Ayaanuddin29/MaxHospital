@@ -15,7 +15,7 @@ export default function Header() {
     </Button> 
       <div className="flex gap-2 md:order-2">
         <Link to='/signin'>
-            <Button gradientDuoTone='purpleToBlue'>SignIn</Button>
+            <Button gradientDuoTone='purpleToPink' outline>SignIn</Button>
         </Link>
         <Navbar.Toggle/>
     </div>
