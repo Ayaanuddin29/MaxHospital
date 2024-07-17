@@ -2,7 +2,6 @@ import { Avatar, Button, Dropdown, Navbar, NavbarCollapse, TextInput } from "flo
 import { Link, useLocation } from "react-router-dom"
 import {AiOutlineSearch} from 'react-icons/ai'
 import { useSelector } from "react-redux";
-import { current } from "@reduxjs/toolkit";
 // import {FaMoon} from 'react-icons/fa'
 export default function Header() {
   const path=useLocation().pathname;
