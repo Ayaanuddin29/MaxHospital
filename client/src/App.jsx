@@ -5,6 +5,7 @@ import Event from './pages/Event'
 import Signin from "./pages/Signin"
 import SIgnup from "./pages/SIgnup"
 import Header from "./components/Header"
+import FooterCom from "./components/FooterCom"
 function App() {
   return (
     <>
@@ -17,6 +18,7 @@ function App() {
       <Route path='/signin' element={<Signin/>}/>
       <Route path='/signup' element={<SIgnup/>}/>
     </Routes>
+    <FooterCom/>
   </BrowserRouter>
     </>
   )
